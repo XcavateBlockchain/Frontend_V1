@@ -4,7 +4,8 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Property from "./Components/Property";
 import Profile from "./Components/Profile";
-import ListProperty from "./Components/ListProperty";
+import PropertyInfo from "./Components/PropertyInfo";
+import ListedInfo from "./Components/ListedInfo";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -15,7 +16,9 @@ function App() {
       <Home />
       {/* <Property /> */}
       {/* <Profile/> */}
-      <ListProperty/>
+      {/* <PropertyInfo/> */}
+      <ListedInfo/>
+
     </>
   );
 }
