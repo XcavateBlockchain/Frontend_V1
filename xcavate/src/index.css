@@ -12,3 +12,9 @@ body{
 font-style: normal;
 font-weight: 400;
 }
+
+input,textarea{
+    background-color: #151719 !important;
+    border-color: #D9E3EA80 !important;
+    ; 
+}
