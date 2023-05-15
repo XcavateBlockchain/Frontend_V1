@@ -1,16 +1,24 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
+import Property from "./Components/Property";
+import Profile from "./Components/Profile";
+import PropertyInfo from "./Components/PropertyInfo";
+import ListedInfo from "./Components/ListedInfo";
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div className="flex justify-center items-center h-[100vh] border">
-        <h1 className="text-blue-500 text-5xl font-bold ">Hello World , <br/> Welcome's to Xcavate</h1>
-      </div>
+      <Navbar />
+
+      <Home />
+      {/* <Property /> */}
+      {/* <Profile/> */}
+      {/* <PropertyInfo/> */}
+      <ListedInfo/>
+
     </>
   );
 }
