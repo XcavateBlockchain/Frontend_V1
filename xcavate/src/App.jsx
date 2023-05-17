@@ -6,6 +6,7 @@ import Property from "./Components/Property";
 import Profile from "./Components/Profile";
 import PropertyInfo from "./Components/PropertyInfo";
 import ListedInfo from "./Components/ListedInfo";
+import Marketplace from "./Components/Marketplace";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -14,10 +15,11 @@ function App() {
       <Navbar />
 
       <Home />
-      {/* <Property /> */}
-      {/* <Profile/> */}
-      {/* <PropertyInfo/> */}
-      <ListedInfo/>
+      <Marketplace/>
+      {/* <Property />
+      <Profile/>
+      <PropertyInfo/>
+      <ListedInfo/> */}
 
     </>
   );

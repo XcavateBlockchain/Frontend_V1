@@ -18,3 +18,24 @@ input,textarea{
     border-color: #D9E3EA80 !important;
     ; 
 }
+
+.mint-now-button{
+    background: linear-gradient(90.31deg, #FF006F -36.96%, #2F8BB2 103.87%);
+    border-radius: 8px;
+}
+.view-details-button{
+    background: #1C1F20;
+    border-radius: 8px; 
+    color: #2F8BB2;
+}
+.asset-card{
+    background: #1C1F20;
+    border-radius: 8px;
+}
+.banner{
+    background: url(.jpg), linear-gradient(90deg, #F7AF6F 0%, #DD72A3 44.62%, #2F84AB 99.34%);
+    border-radius: 8px 8px 0px 0px;
+}.profile-banner{
+    border: 8px solid #1C1F20;
+    background:url(.jpg), linear-gradient(90deg, #F7AF6F 0%, #DD72A3 44.62%, #2F84AB 99.34%);
+}
