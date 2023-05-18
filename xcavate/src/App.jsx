@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="flex justify-center items-center h-[100vh] border">
-        <h1 className="text-blue-500 text-5xl font-bold ">Hello World , <br/> Welcome's to Xcavate</h1>
+        <h1 className="text-blue-500 text-5xl font-bold ">Hello World , <br/> Welcome to Xcavate</h1>
       </div>
     </>
   );
