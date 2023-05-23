@@ -14,9 +14,9 @@ function App() {
       <Navbar />
 
       <Home />
-      {/* <Property /> */}
-      {/* <Profile/> */}
-      {/* <PropertyInfo/> */}
+      <Property />
+      <Profile/>
+      <PropertyInfo/>
       <ListedInfo/>
 
     </>
