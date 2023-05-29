@@ -2,7 +2,7 @@ import React from "react";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import {MdBedroomChild} from "react-icons/md";
 import {BsCircle} from "react-icons/bs"
-const AssetCard = () => {
+const AssetCard = ({item}) => {
   return (
     <>
       <div className="max-w-sm mt-2 bg-white relative  asset-card  rounded-lg shadow">
@@ -11,7 +11,7 @@ const AssetCard = () => {
             className="rounded-t-lg w-[100%]"
             
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEXGw6TIMBUlW4dEvanvpiw03ui3QeCxlX7A&usqp=CAU"
-            alt=""
+            alt="hello"
           />
         </a>
         <div className="p-3 absolute top-0">
@@ -20,18 +20,22 @@ const AssetCard = () => {
         <div className="p-5">
           <div className="flex justify-between">
             <h5 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Briks and blocks
+             {item.title}
             </h5>
             <h5 className="mb-2 text-1xl font-bold tracking-tight text-blue-400 dark:text-blue-400">
-              $3000
+              $ {item.listingPrice}
             </h5>
           </div>
+          <h3 className="text-white mt-1 mb-1">{item.description}</h3>
           <div className="flex ">
+            <a className="flex" href={item.googleMapCode}>
             <HiOutlineLocationMarker className="text-blue-400" size={22} />
             <h5 className=" mx-2 text-1xl tracking-tight text-gray-900 dark:text-white">
-              Boroughs of New york city
+              {item.address}
             </h5>
+            </a>
           </div>
+          
          <div className="mt-3 text-white flex">
             <MdBedroomChild size={25}/>
             <MdBedroomChild size={25}/>

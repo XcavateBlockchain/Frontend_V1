@@ -4,13 +4,14 @@
 
 body{
     background-color: #151719;
+    font-family: 'DM Sans' !important;
+    font-style: normal !important;
 }
 .main-color{
     background-color: #151719;
     color:#D9E3EA;
-    font-family: 'Segoe UI';
-font-style: normal;
-font-weight: 400;
+    
+    font-weight: 400;
 }
 
 input,textarea{
