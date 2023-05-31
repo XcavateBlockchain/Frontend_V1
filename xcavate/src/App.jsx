@@ -25,6 +25,8 @@ function App() {
         
       {/* <RealEstate/> */}
       {/* <Home /> */}
+      {/* <RealEstate/> */}
+      {/* <Home /> */}
       {/* <Marketplace/>
       <Property /> */}
       {/* <Profile/> */}
