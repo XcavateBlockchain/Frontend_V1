@@ -6,12 +6,7 @@ import EstateAssets from "./estateAssets";
 import SummaryCards from "./summaryCards";
 import { sumData } from "../utils/summary";
 const RealEstate = () => {
-    const [newAssets, setNewAssets] = useState()
-    const toggleVerification = (index) => {
-        const newEstateAssets = [...newAssets];
-        newAssets[index].isCompleted = !newAssets[index].isCompleted;
-        setNewAssets(newEstateAssets);
-      };
+    
   return (
     <>
       <div className="container banner h-[14rem] border w-[100%] relative p-4 mx-auto mb-5">
