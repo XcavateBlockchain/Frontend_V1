@@ -7,18 +7,19 @@ import Profile from "./Components/Profile";
 import PropertyInfo from "./Components/PropertyInfo";
 import ListedInfo from "./Components/ListedInfo";
 import Marketplace from "./Components/Marketplace";
+import RealEstate from "./Components/RealEState";
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
       <Navbar />
-
-      <Home />
-      <Marketplace/>
-      {/* <Property />
-      <Profile/>
-      <PropertyInfo/>
+      <RealEstate/>
+      {/* <Home /> */}
+      {/* <Marketplace/>
+      <Property /> */}
+      {/* <Profile/> */}
+      {/* <PropertyInfo/>
       <ListedInfo/> */}
 
     </>
