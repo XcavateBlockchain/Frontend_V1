@@ -9,7 +9,6 @@ const AssetCard = ({item}) => {
         <a href="#">
           <img
             className="rounded-t-lg w-[100%]"
-            
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEXGw6TIMBUlW4dEvanvpiw03ui3QeCxlX7A&usqp=CAU"
             alt="hello"
           />
@@ -42,7 +41,7 @@ const AssetCard = ({item}) => {
             <MdBedroomChild size={25}/>
          </div>
           <div className="mt-5 flex justify-between">
-            
+
           <button
             
             className="inline-flex mint-now-button  items-center px-3 py-2 text-sm text-center text-white rounded-lg "

@@ -16,11 +16,11 @@ const EstateAssets = ({item}) => {
         </a>
         <div className="p-3 absolute top-0">
         {item.verificationStatus=== "listed" &&
-        <span className="text-red-500 border  text-xs font-medium mr-2 px-2.5 py-0.5 rounded backdrop-blur-3xl">Listed</span>}
+        <span className="text-orange-500 border  text-xs font-medium mr-2 px-2.5 py-0.5 rounded backdrop-blur-3xl">Listed</span>}
         {item.verificationStatus=== "verified" &&
         <span className="text-blue-500 border  text-xs font-medium mr-2 px-2.5 py-0.5 rounded backdrop-blur-3xl">verified</span>}
         {item.verificationStatus=== "not verified" &&
-        <span className="text-orange-500 border  text-xs font-medium mr-2 px-2.5 py-0.5 rounded backdrop-blur-3xl">not verified</span>}
+        <span className="text-red-500 border  text-xs font-medium mr-2 px-2.5 py-0.5 rounded backdrop-blur-3xl">not verified</span>}
         
         </div>
         <div className="p-5">
