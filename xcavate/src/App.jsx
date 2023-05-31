@@ -14,8 +14,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <RealEstate/>
-      {/* <Home /> */}
+      {/* <RealEstate/> */}
+      <Home />
       {/* <Marketplace/>
       <Property /> */}
       {/* <Profile/> */}
