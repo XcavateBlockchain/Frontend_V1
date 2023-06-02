@@ -1,7 +1,7 @@
 import React from "react";
 import {BsCircle} from "react-icons/bs";
-import axios from "axios";
-import { XCAV_API } from "../services/APIService";
+//import axios from "axios";
+//import { XCAV_API } from "../services/APIService";
 
 const Profile = () => {
 
@@ -24,8 +24,8 @@ const imageRef = useRef("");
         const postBody = {fullName, email, phone, address, bio, imageUrl};
 
         //console.log(postBody);
-        axios.post(`${XCAV_API}/propertyInfo`, {postBody}).then(res=> console.log(res))
-        .catch(err => console.log(err))
+        // axios.post(`${XCAV_API}/propertyInfo`, {postBody}).then(res=> console.log(res))
+        // .catch(err => console.log(err))
         //toast.success("Comment Added Successfully");
     }
   return (
@@ -56,7 +56,7 @@ const imageRef = useRef("");
       >
        
 
-        <form onSubmit={handleSubmit}>
+        <form >
           <div className="mb-6">
             <label
               for="name"

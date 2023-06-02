@@ -3,6 +3,12 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import {MdBedroomChild} from "react-icons/md";
 import {BsCircle} from "react-icons/bs"
 const EstateAssets = ({item}) => {
+  // const [newAssets, setNewAssets] = useState()
+  //   const toggleVerification = (index) => {
+  //       const newEstateAssets = [...newAssets];
+  //       newAssets[index].isCompleted = !newAssets[index].isCompleted;
+  //       setNewAssets(newEstateAssets);
+  //     };
   return (
     <>
       <div className="max-w-sm mt-2 bg-white relative  asset-card  rounded-lg shadow">

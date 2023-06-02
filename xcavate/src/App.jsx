@@ -8,14 +8,25 @@ import PropertyInfo from "./Components/PropertyInfo";
 import ListedInfo from "./Components/ListedInfo";
 import Marketplace from "./Components/Marketplace";
 import RealEstate from "./Components/RealEState";
+import {  BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
       <Navbar />
+        
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/market-place" element={<Marketplace />} />
+            <Route path="/real-estate" element={<RealEstate />} />
+            {/* Other routes */}
+          </Routes>
+        
       {/* <RealEstate/> */}
-      <Home />
+      {/* <Home /> */}
+      {/* <RealEstate/> */}
+      {/* <Home /> */}
       {/* <Marketplace/>
       <Property /> */}
       {/* <Profile/> */}
