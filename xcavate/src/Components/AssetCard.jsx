@@ -11,7 +11,7 @@ const AssetCard = ({item}) => {
             className="rounded-t-lg w-[100%]"
 
             
-            src={item.imageUrl}
+            src={item.photo1}
 
             alt="hello"
           />
@@ -52,13 +52,18 @@ const AssetCard = ({item}) => {
             Mint Now
            
           </button>
-          <button
-            
+          <div className="flex"><a
+            href={item.floorPlan}
             className="inline-flex view-details-button border items-center px-3 py-2 text-sm text-center text-white rounded-lg"
           >
-            View Details
-           
-          </button>
+            Floor Plan
+          </a>
+          <a
+            href={item.salesAgreement}
+            className="inline-flex mx-3 view-details-button border items-center px-3 py-2 text-sm text-center text-white rounded-lg"
+          >
+            Sales Agreement
+          </a></div>
           </div>
         </div>
       </div>
