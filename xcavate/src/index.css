@@ -32,6 +32,10 @@ textarea {
 .asset-card {
   background: #1c1f20;
   border-radius: 8px;
+  background: #fefefe !important;
+  color: black !important;
+    height: 90% !important; 
+
 }
 .banner {
   background: url(.jpg),
@@ -63,18 +67,40 @@ textarea {
   background-clip: text;
 }
 .connect-wallet-button {
-  background: rgba(47, 139, 178, 0.08);
-  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  align-items: center;
+  font-family: "Graphik";
+  padding: 18px 8px;
+  gap: 8px;
+  isolation: isolate;
+
+  width: 146px;
+  height: 45px;
+
+  /* Better */
+
   background: radial-gradient(
       182.97% 1567.37% at -2.4% 100%,
       #f5a483 0%,
       #e574a5 40.52%,
       #354e78 65.22%,
       #2f8bb2 100%
-    ) !important;
+    )
     /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   border-radius: 8px;
-  background-clip: text;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+  color: white;
 }
 .home-para {
   width: 914px;
@@ -94,6 +120,10 @@ textarea {
 
   margin: auto;
   overflow: visible;
+}
+.illustration {
+  width: 447px !important;
+  height: 298px !important;
 }
 .slider ul {
   display: flex;

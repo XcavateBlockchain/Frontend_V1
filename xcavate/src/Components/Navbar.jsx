@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
+import {BsFillMoonFill} from "react-icons/bs";
+import {BiBell} from "react-icons/bi";
 const Navbar = () => {
   return (
     <>
@@ -9,12 +11,14 @@ const Navbar = () => {
           <a href="/" className="flex items-center">
             <img
               src={logo}
-              className="h-10 mr-3"
+              className="h-12 mr-3"
               alt="Flowbite Logo"
             />
             
           </a>
           <div className="flex md:order-2">
+            <BsFillMoonFill color="black" className="mt-3 mx-3" size={20} />
+            <BiBell color="black" className="mt-3 mr-10" size={24} />
             <button
               type="button"
               className=" connect-wallet-button rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0"

@@ -104,7 +104,7 @@ export const data =[
         "isDeleted": false,
         "type": "Apartment",
         "address": "The Avenue, Hertford",
-        "description": "2 bed apartment overlooking the river with balcony",
+        "description": "3 bed apartment overlooking the river with balcony",
         "feature": "Test",
         "listType": "Flat",
         "listingPrice": 300000,
