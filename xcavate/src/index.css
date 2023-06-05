@@ -5,6 +5,7 @@
 body {
   /* background-color: #151719; */
   font-family: "DM Sans" !important;
+  src: url("../src/*");
   font-style: normal !important;
 }
 .main-color {
@@ -61,7 +62,8 @@ textarea {
 
 }
 .heading {
-  font-family: 'Graphik' !important;
+  font-family: 'Roboto' !important;
+  src: url("../src/*");
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
