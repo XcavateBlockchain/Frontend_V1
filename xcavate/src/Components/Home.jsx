@@ -5,15 +5,15 @@ const Home = () => {
   return (
     <>
       <div className="flex justify-center flex-col  items-center h-[100vh]">
-        <div className="w-2/3 p-4 text-center mt-[10rem] flex justify-center items-center flex-col bg-white rounded-lg shadow sm:p-8 main-color dark:border-gray-700">
+        <div className="w-2/3 p-4 text-center mt-[10rem] flex justify-center items-center flex-col rounded-lg sm:p-8 ">
           <img src={illustration} className=" w-[65%] h-[65%]" alt="Ilustration"/>
           <h5 className="mb-2 text-4xl font-bold text-gray-900 heading dark:text-white">
             Discover the Future of Property Listing on Blockchain !
           </h5>
-          <p className="mb-3 home-para text-base text-gray-500 sm:text-lg mt-3 dark:text-gray-400">
+          <p className="mb-3 home-para text-base text-gray-800 sm:text-lg mt-3 dark:text-gray-400">
           With blockchain technology, every property listed on our platform is verified, authenticated, and recorded on the immutable blockchain ledger.
           </p>
-        <button type="button" class="py-2.5 mt-3 px-10 mr-2 mb-2 text-sm font-medium text-white border border-white rounded"> <Link to="/market-place">Explore</Link> </button>
+        <button type="button" class="py-2.5 mt-3 px-10 mr-2 mb-2 text-sm font-medium text-black border border-black rounded"> <Link to="/market-place">Explore</Link> </button>
 
         </div>
         <div className="slider container flex justify-center items-center">
