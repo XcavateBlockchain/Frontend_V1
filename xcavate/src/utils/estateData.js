@@ -21,7 +21,7 @@ export const data = [
     "outdoorSpace": "None",
     "numberOfBathrooms": 1,
     "googleMapCode": "https://goo.gl/maps/RGi2riXVwnbPY4zQ6",
-    "verificationStatus":"verified",
+    "verificationStatus":"Verified",
     "__v": 0
 },
 {
@@ -46,7 +46,7 @@ export const data = [
     "outdoorSpace": "None",
     "numberOfBathrooms": 1,
     "googleMapCode": "https://goo.gl/maps/RGi2riXVwnbPY4zQ6",
-    "verificationStatus":"not verified",
+    "verificationStatus":"Not Verified",
     "__v": 0
 },
 {
@@ -71,7 +71,7 @@ export const data = [
     "outdoorSpace": "None",
     "numberOfBathrooms": 1,
     "googleMapCode": "https://goo.gl/maps/RGi2riXVwnbPY4zQ6",
-    "verificationStatus":"verified",
+    "verificationStatus":"Verified",
     "__v": 0
 },
     {
@@ -97,7 +97,7 @@ export const data = [
         "outdoorSpace": "None",
         "numberOfBathrooms": 1,
         "googleMapCode": "https://goo.gl/maps/RGi2riXVwnbPY4zQ6",
-        "verificationStatus":"verified",
+        "verificationStatus":"Verified",
         "__v": 0
     },
     {
@@ -122,7 +122,7 @@ export const data = [
         "outdoorSpace": "None",
         "numberOfBathrooms": 1,
         "googleMapCode": "https://goo.gl/maps/RGi2riXVwnbPY4zQ6",
-        "verificationStatus":"not verified",
+        "verificationStatus":"Not Verified",
         "__v": 0
     },
     {
@@ -147,7 +147,7 @@ export const data = [
         "outdoorSpace": "None",
         "numberOfBathrooms": 1,
         "googleMapCode": "https://goo.gl/maps/RGi2riXVwnbPY4zQ6",
-        "verificationStatus":"listed",
+        "verificationStatus":"Listed",
         "__v": 0
     },
     

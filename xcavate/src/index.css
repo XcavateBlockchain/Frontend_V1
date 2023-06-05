@@ -34,8 +34,11 @@ textarea {
   ) !important;
   border-style: solid !important;
   border-width: 1px !important;
-  color: #F5A483 0.06% !important;
-
+  color: #f5a483 0.06% !important;
+}
+.summarry-card {
+  background: rgba(255, 255, 255, 0.71) !important;
+  box-shadow: 0px 1.57619px 12.6095px rgba(0, 0, 0, 0.08) !important;
 }
 .asset-card {
   background: #1c1f20;
@@ -44,14 +47,18 @@ textarea {
   color: black !important;
 }
 .banner {
-  background: url(.jpg),
-    linear-gradient(90deg, #f7af6f 0%, #dd72a3 44.62%, #2f84ab 99.34%);
+    background-image: url("https://cdn.discordapp.com/attachments/1097791032835452958/1115347529333215302/mast.jpeg");
+    background-repeat: no-repeat;
+    background-position:center !important;
   border-radius: 8px 8px 0px 0px;
+  
 }
 .profile-banner {
-  border: 8px solid #1c1f20;
-  background: url(.jpg),
-    linear-gradient(90deg, #f7af6f 0%, #dd72a3 44.62%, #2f84ab 99.34%);
+  background-image: url("https://xcavate.io/assets/gade-home-logo.jpg");
+  background-repeat: no-repeat;
+  background-position:center !important;
+  background-size: 10rem 10rem;
+
 }
 .heading {
   font-family: "Graphik" !important;

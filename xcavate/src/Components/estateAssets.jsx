@@ -20,58 +20,58 @@ const EstateAssets = ({item}) => {
             alt="hello"
           />
         </a>
-        <div className="p-3 absolute top-0">
-        {item.verificationStatus=== "listed" &&
-        <span className="text-orange-500 border  text-xs font-medium mr-2 px-2.5 py-0.5 rounded backdrop-blur-3xl">Listed</span>}
-        {item.verificationStatus=== "verified" &&
-        <span className="text-blue-500 border  text-xs font-medium mr-2 px-2.5 py-0.5 rounded backdrop-blur-3xl">verified</span>}
-        {item.verificationStatus=== "not verified" &&
-        <span className="text-red-500 border  text-xs font-medium mr-2 px-2.5 py-0.5 rounded backdrop-blur-3xl">not verified</span>}
+        <div className="p-3 absolute top-0 ">
+        {item.verificationStatus=== "Listed" &&
+        <span className="text-orange-500  bg-white font-bold   text-xs mr-2 px-2.5 py-0.5 rounded ">Listed</span>}
+        {item.verificationStatus=== "Verified" &&
+        <span className="text-blue-500  bg-white text-xs font-bold    mr-2 px-2.5 py-0.5 rounded ">Verified</span>}
+        {item.verificationStatus=== "Not Verified" &&
+        <span className="text-red-500   text-xs bg-white font-bold mr-2 px-2.5 py-0.5 rounded ">Not Verified</span>}
         
         </div>
         <div className="p-5">
           <div className="flex justify-between">
-            <h5 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-black">
              {item.title}
             </h5>
-            <h5 className="mb-2 text-1xl font-bold tracking-tight text-blue-400 dark:text-blue-400">
-              $ {item.listingPrice}
+            <h5 className="mb-2 text-1xl font-bold tracking-tight text-black dark:text-black">
+            £ {item.listingPrice}
             </h5>
           </div>
-          <h3 className="text-white mt-1 mb-1">{item.description}</h3>
+          {/* <h3 className="text-black mt-1 mb-1">{item.description}</h3> */}
           <div className="flex ">
             <a className="flex" href={item.googleMapCode}>
             <HiOutlineLocationMarker className="text-blue-400" size={22} />
-            <h5 className=" mx-2 text-1xl tracking-tight text-gray-900 dark:text-white">
+            <h5 className=" mx-2 text-1xl tracking-tight text-gray-900 dark:text-gray-500">
               {item.address}
             </h5>
             </a>
           </div>
           
-         <div className="mt-3 text-white flex">
+         <div className="mt-3 text-black flex">
             <MdBedroomChild size={25}/>
             <MdBedroomChild size={25}/>
             <MdBedroomChild size={25}/>
          </div>
-          <div className="mt-5 flex justify-between">
-            {item.verificationStatus=== "not verified" && <button
-            className="inline-flex mint-now-button  items-center px-3 py-2 text-sm text-center text-white rounded-lg "
+          <div className="mt-5 flex">
+            {item.verificationStatus=== "Not Verified" && <button
+            className="inline-flex button  items-center px-3 py-2 text-sm text-center text-white rounded-lg "
           >
             verify
           </button>}
-          {item.verificationStatus=== "verified" && <button
-            className="inline-flex mint-now-button  items-center px-3 py-2 text-sm text-center text-white rounded-lg "
+          {item.verificationStatus=== "Verified" && <button
+            className="inline-flex button  items-center px-3 py-2 text-sm text-center text-white rounded-lg "
           >
-            List
+            Listed
           </button>}
-          {item.verificationStatus=== "listed" && <button
-            className="inline-flex mint-now-button  items-center px-3 py-2 text-sm text-center text-white rounded-lg "
+          {item.verificationStatus=== "Listed" && <button
+            className="inline-flex button  items-center px-3 py-2 text-sm text-center text-white rounded-lg "
           >
             Listed
           </button>}
           <button
             
-            className="inline-flex view-details-button border items-center px-3 py-2 text-sm text-center text-white rounded-lg"
+            className="text-center mx-5 w-[100%] border  px-3 py-2 text-sm text-black rounded-lg"
           >
             View Details
            
