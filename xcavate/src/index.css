@@ -5,7 +5,7 @@
 body {
   /* background-color: #151719; */
   font-family: "DM Sans" !important;
-  src: url("../src/*");
+  src: url("../src/DMSans-Regular.ttf");
   font-style: normal !important;
 }
 .main-color {
@@ -63,7 +63,7 @@ textarea {
 }
 .heading {
   font-family: 'Roboto' !important;
-  src: url("../src/*");
+  src: url("../src/Roboto-Bold.ttf");
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
