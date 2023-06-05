@@ -6,7 +6,7 @@ import { data } from "../utils/assets";
 const Home = () => {
   return (
     <>
-      <div className="flex justify-center flex-col  items-center h-[100vh]">
+      <div className="flex justify-center flex-col  items-center h-[90vh]">
         <div className="w-2/3 p-4 text-center mt-[24rem] flex justify-center items-center flex-col rounded-lg sm:p-8 ">
           <img src={illustration} className=" illustration" alt="Ilustration"/>
           <h5 className="mb-2 text-4xl font-bold text-gray-900 heading dark:text-white">
@@ -33,7 +33,6 @@ const Home = () => {
           <AssetCard item={data[0]} isHome={true} company={"https://xcavate.io/assets/chase-new-homes-logo.png"} />
           <AssetCard item={data[2]} isHome={true} company={"https://xcavate.io/assets/USA_Developments_logo.png"} />
           <AssetCard item={data[3]}  isHome={true} company={"https://xcavate.io/assets/chase-new-homes-logo.png"} />
-        
         </div>
       </div>
     </>
