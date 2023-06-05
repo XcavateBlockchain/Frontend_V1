@@ -15,16 +15,13 @@ const Home = () => {
         <button type="button" class="py-2.5 mt-3 px-10 mr-2 mb-2 text-sm font-medium text-white border border-white rounded">Explore</button>
 
         </div>
-        <div className="slider container border">
-          <ul>
+        <div className="slider container flex justify-center items-center">
+          <ul >
             <li>
-              <img className="w-[100px] h-[100px]" src="https://xcavate.io/assets/USA_Developments_logo.png" alt="" />
+              <img className="w-[200px] h-[200px]" src="https://xcavate.io/assets/USA_Developments_logo.png" alt="" />
             </li>
             <li>
-              <img className="w-[100px] h-[100px]" src="https://xcavate.io/assets/USA_Developments_logo.png"  alt="" />
-            </li>
-            <li>
-              <img className="w-[100px] h-[100px]" src="https://xcavate.io/assets/USA_Developments_logo.png"  alt="" />
+              <img className="w-[200px] h-[200px] mt-2" src="https://xcavate.io/assets/chase-new-homes-logo.png"  alt="" />
             </li>
             
           </ul>
