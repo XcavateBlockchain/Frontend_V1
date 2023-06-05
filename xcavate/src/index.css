@@ -44,7 +44,7 @@ textarea {
     linear-gradient(90deg, #f7af6f 0%, #dd72a3 44.62%, #2f84ab 99.34%);
 }
 .heading {
-  font-family: "Segoe UI";
+  font-family: "Graphik" !important;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -80,7 +80,7 @@ textarea {
   width: 914px;
   height: 64px;
 
-  font-family: "Segoe UI";
+  font-family: "'DM Sans" !important;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;

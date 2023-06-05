@@ -8,10 +8,10 @@ const Home = () => {
         <div className="w-2/3 p-4 text-center mt-[10rem] flex justify-center items-center flex-col rounded-lg sm:p-8 ">
           <img src={illustration} className=" w-[65%] h-[65%]" alt="Ilustration"/>
           <h5 className="mb-2 text-4xl font-bold text-gray-900 heading dark:text-white">
-            Discover the Future of Property Listing on Blockchain !
+          Welcome TO THE LARGEST GLOBAL WEB3 REAL ESTATE INVESTOR COMMUNITY 
           </h5>
           <p className="mb-3 home-para text-base text-gray-800 sm:text-lg mt-3 dark:text-gray-400">
-          With blockchain technology, every property listed on our platform is verified, authenticated, and recorded on the immutable blockchain ledger.
+          Buy, sell and trade real world rental real estate through NFTs in a trustless fully dentralized way.
           </p>
         <button type="button" class="py-2.5 mt-3 px-10 mr-2 mb-2 text-sm font-medium text-black border border-black rounded"> <Link to="/market-place">Explore</Link> </button>
 
