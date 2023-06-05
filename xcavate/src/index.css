@@ -24,18 +24,24 @@ textarea {
   background: linear-gradient(90.31deg, #ff006f -36.96%, #2f8bb2 103.87%);
   border-radius: 8px;
 }
-.view-details-button {
-  background: #1c1f20;
-  border-radius: 8px;
-  color: #2f8bb2;
+.details-border {
+  border-image: linear-gradient(
+    89.91deg,
+    #f5a483 0.06%,
+    #e574a5 31.91%,
+    #354e78 72.43%,
+    #2f8bb2 97.14%
+  ) !important;
+  border-style: solid !important;
+  border-width: 1px !important;
+  color: #F5A483 0.06% !important;
+
 }
 .asset-card {
   background: #1c1f20;
   border-radius: 8px;
   background: #fefefe !important;
   color: black !important;
-    height: 90% !important; 
-
 }
 .banner {
   background: url(.jpg),
@@ -101,6 +107,15 @@ textarea {
   flex-grow: 0;
   z-index: 2;
   color: white;
+}
+.button {
+  background: radial-gradient(
+    182.97% 1567.37% at -2.4% 100%,
+    #f5a483 0%,
+    #e574a5 40.52%,
+    #354e78 65.22%,
+    #2f8bb2 100%
+  );
 }
 .home-para {
   width: 914px;
