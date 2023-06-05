@@ -16,7 +16,7 @@ const EstateAssets = ({item}) => {
           <img
             className="rounded-t-lg w-[100%]"
             
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEXGw6TIMBUlW4dEvanvpiw03ui3QeCxlX7A&usqp=CAU"
+            src={item.imageUrl}
             alt="hello"
           />
         </a>

@@ -22,6 +22,7 @@ export const data = [
     "numberOfBathrooms": 1,
     "googleMapCode": "https://goo.gl/maps/RGi2riXVwnbPY4zQ6",
     "verificationStatus":"Verified",
+    "imageUrl":"",
     "__v": 0
 },
 {
@@ -47,6 +48,7 @@ export const data = [
     "numberOfBathrooms": 1,
     "googleMapCode": "https://goo.gl/maps/RGi2riXVwnbPY4zQ6",
     "verificationStatus":"Not Verified",
+    "imageUrl":"",
     "__v": 0
 },
 {
@@ -72,6 +74,7 @@ export const data = [
     "numberOfBathrooms": 1,
     "googleMapCode": "https://goo.gl/maps/RGi2riXVwnbPY4zQ6",
     "verificationStatus":"Verified",
+    "imageUrl":"",
     "__v": 0
 },
     {
@@ -98,6 +101,7 @@ export const data = [
         "numberOfBathrooms": 1,
         "googleMapCode": "https://goo.gl/maps/RGi2riXVwnbPY4zQ6",
         "verificationStatus":"Verified",
+        "imageUrl":"",
         "__v": 0
     },
     {
@@ -123,6 +127,7 @@ export const data = [
         "numberOfBathrooms": 1,
         "googleMapCode": "https://goo.gl/maps/RGi2riXVwnbPY4zQ6",
         "verificationStatus":"Not Verified",
+        "imageUrl":"",
         "__v": 0
     },
     {
@@ -148,6 +153,7 @@ export const data = [
         "numberOfBathrooms": 1,
         "googleMapCode": "https://goo.gl/maps/RGi2riXVwnbPY4zQ6",
         "verificationStatus":"Listed",
+        "imageUrl":"",
         "__v": 0
     },
     
