@@ -61,7 +61,7 @@ textarea {
 
 }
 .heading {
-  font-family: "Graphik" !important;
+  font-family: 'Graphik' !important;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -128,7 +128,7 @@ textarea {
   width: 914px;
   height: 64px;
 
-  font-family: "'DM Sans" !important;
+  font-family: 'DM Sans' !important;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
