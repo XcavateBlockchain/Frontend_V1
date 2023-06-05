@@ -47,12 +47,11 @@ const EstateAssets = ({item}) => {
             </h5>
             </a>
           </div>
-          
-         <div className="mt-3 text-black flex">
-            <MdBedroomChild size={25}/>
-            <MdBedroomChild size={25}/>
-            <MdBedroomChild size={25}/>
-         </div>
+          <div className="mt-2 flex justify-between ">
+            <div className="mt-3 text-black flex">
+              <span className="flex font-medium text-[15px]"><LuBedSingle className="mx-1" size={20} /> 4 </span>
+              <span className="flex font-medium text-[15px]"><GiBathtub className="mx-1" size={20} /> 3 </span>
+            </div>
           <div className="mt-5 flex">
             {item.verificationStatus=== "Not Verified" && <button
             className="inline-flex button  items-center px-3 py-2 text-sm text-center text-white rounded-lg "
