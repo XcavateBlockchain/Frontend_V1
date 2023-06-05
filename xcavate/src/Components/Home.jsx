@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import illustration from "../assets/ilustration.png";
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
           <p className="mb-3 home-para text-base text-gray-500 sm:text-lg mt-3 dark:text-gray-400">
           With blockchain technology, every property listed on our platform is verified, authenticated, and recorded on the immutable blockchain ledger.
           </p>
-        <button type="button" class="py-2.5 mt-3 px-10 mr-2 mb-2 text-sm font-medium text-white border border-white rounded">Explore</button>
+        <button type="button" class="py-2.5 mt-3 px-10 mr-2 mb-2 text-sm font-medium text-white border border-white rounded"> <Link to="/market-place">Explore</Link> </button>
 
         </div>
         <div className="slider container flex justify-center items-center">
